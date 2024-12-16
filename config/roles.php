@@ -19,20 +19,32 @@ return [
     'blogger' => [
         'name' => 'Blogger',
         'cap' => [
+            'delete_others_posts',
+            'delete_posts',
+            'delete_private_posts',
+            'delete_published_posts',
+            'edit_others_posts',
+            'edit_posts',
+            'edit_private_posts',
+            'edit_published_posts',
         ],
     ],
 
     'cashier' => [
         'name' => 'Cashier',
         'cap' => [
+            'edit_payments',
+            'edit_private_payments',
+            'edit_published_payments',
+            'publish_payments',
+            'read_private_payments',
+            'read',
         ],
     ],
 
     'instructor' => [
         'name' => 'Instructor',
         'cap' => [
-            'delete_classes',
-            'delete_private_classes',
             'edit_classes',
             'edit_private_classes',
             'edit_published_classes',
